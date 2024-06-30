@@ -23,3 +23,11 @@
     background-color: #272727;
     border-left: 2px solid #121212;
 }
+.changePosition{
+    justify-content: flex-start;
+    transition: 0.4s;
+    margin-left: 10px;
+}
+.rotate{
+    transform: rotate(180deg);
+}
