@@ -1,0 +1,53 @@
+.nav{
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 10px);
+    width: 65px;
+    margin: 5px;
+}
+.showDetails{
+    height: 12%;
+    background-color: #212121;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.albums{
+    height: calc(88% - 5px);
+    background-color: #212121;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button{
+    background-color: transparent;
+    border: none;
+}
+.album{
+    width: 45px;
+    height: 46px;
+    background-color: orange;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.album:nth-of-type(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0,76,128);
+    background: linear-gradient(162deg, rgba(0,76,128,1) 0%, rgba(0,76,128,1) 1%, rgba(0,76,128,1) 4%, rgba(0,76,128,1) 6%, rgba(0,76,128,1) 9%, rgba(17,88,136,1) 14%, rgba(24,93,140,1) 18%, rgba(255,255,255,1) 100%);
+}
+.album:nth-of-type(2){
+    background-image: url(../Images/Joanne.jpg);
+    background-size: cover;
+}
+.album:nth-of-type(3){
+    background-image: url(../Images/caching.png);
+    background-size: cover;
+}
+

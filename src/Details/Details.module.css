@@ -1,0 +1,25 @@
+.details{
+    position: fixed;
+    right: 0;
+    height: calc(100% - 10px);
+    width: 60px;
+    margin: 5px;
+    background-color: #212121;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+.buttonsDiv{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttonsDiv button{
+    background-color: transparent;
+    border: none;
+}
+.hidden{
+    width: 500px;
+    background-color: #272727;
+    border-left: 2px solid #121212;
+}
