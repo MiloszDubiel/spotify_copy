@@ -7,12 +7,18 @@
     background-color: #212121;
     border-radius: 10px;
     transition: 0.4s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
 }
 .buttonsDiv{
     margin-top: 15px;
+    margin-bottom: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 .buttonsDiv button{
     background-color: transparent;
@@ -30,4 +36,28 @@
 }
 .rotate{
     transform: rotate(180deg);
+}
+.img{
+    width: 450px;
+    height: 450px;
+    background-image: url(../Images/hangingtree.jpg);
+    background-size: cover;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+.hideInfo{
+    display: none !important;
+}
+.detailsInfo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    width: 100%;
+    margin-left: 52px;
 }
